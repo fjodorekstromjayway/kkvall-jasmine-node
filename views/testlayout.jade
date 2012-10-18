@@ -1,0 +1,22 @@
+doctype 5
+html
+	head
+		title= title
+		<!-- CSS -->
+		link(rel='stylesheet', href='/jasmine/spec/jasmine/jasmine.css')
+		
+		<!-- Jasmine files -->
+		script(type='text/javascript', src='/jasmine/spec/jasmine/jasmine.js')
+		script(type='text/javascript', src='/jasmine/spec/jasmine/jasmine-html.js')
+		<!-- Spec helper -->
+		script(type='text/javascript', src='/jasmine/spec/spec_helper.js')
+		<!-- Your source files to be tested -->
+		script(type='text/javascript', src='/jasmine/yourlib.js')
+		<!-- Your testfiles -->
+		script(type='text/javascript', src='/spec/test1_spec.js')
+		script(type='text/javascript', src='/spec/convert_spec.js')
+		<!-- Other scripts -->
+		script(type='text/javascript', src='http://code.jquery.com/jquery-1.8.2.min.js')
+		script(type='text/javascript', src='/javascripts/clickButtons.js')
+	body
+		block content
